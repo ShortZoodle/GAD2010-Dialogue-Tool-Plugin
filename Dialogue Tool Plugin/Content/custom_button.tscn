@@ -1,0 +1,54 @@
+[gd_scene load_steps=15 format=3 uid="uid://dbpp3dntipf51"]
+
+[ext_resource type="FontFile" uid="uid://cn41s1wxu7psm" path="res://addons/Dialogue Tool Plugin/Content/Assets/PressStart2P.ttf" id="1_vn4eb"]
+[ext_resource type="Texture2D" uid="uid://st1brhc03jqw" path="res://addons/Dialogue Tool Plugin/Content/Assets/Dialogue_Box.png" id="2_m1l32"]
+[ext_resource type="Texture2D" uid="uid://bxrdtbreyhh80" path="res://addons/Dialogue Tool Plugin/Content/Assets/Black_Box.png" id="3_m1l32"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_uqiow"]
+texture = ExtResource("2_m1l32")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ajbfy"]
+texture = ExtResource("2_m1l32")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_w0w7d"]
+texture = ExtResource("2_m1l32")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_s5032"]
+texture = ExtResource("2_m1l32")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_48et6"]
+texture = ExtResource("2_m1l32")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5x3pk"]
+texture = ExtResource("2_m1l32")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gw0p1"]
+texture = ExtResource("2_m1l32")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rdjtu"]
+texture = ExtResource("2_m1l32")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bkiv0"]
+texture = ExtResource("2_m1l32")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_h2i7n"]
+texture = ExtResource("2_m1l32")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jmw6o"]
+texture = ExtResource("3_m1l32")
+
+[node name="Button" type="Button"]
+offset_right = 56.0
+offset_bottom = 16.0
+theme_override_fonts/font = ExtResource("1_vn4eb")
+theme_override_styles/focus = SubResource("StyleBoxTexture_uqiow")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxTexture_ajbfy")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_w0w7d")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxTexture_s5032")
+theme_override_styles/hover_pressed = SubResource("StyleBoxTexture_48et6")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxTexture_5x3pk")
+theme_override_styles/hover = SubResource("StyleBoxTexture_gw0p1")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxTexture_rdjtu")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_bkiv0")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxTexture_h2i7n")
+theme_override_styles/normal = SubResource("StyleBoxTexture_jmw6o")
